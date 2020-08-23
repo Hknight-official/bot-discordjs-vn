@@ -1,7 +1,9 @@
 const Banchojs = require("bancho.js");
 fs = require('fs');
 const path = require('path');
-const bancho = new Banchojs.BanchoClient({ username: "hknights", password: "c6fa9de0", apiKey: "f542df9a0b7efc666ac0350446f954740a88faa8" });
+var config = JSON.parse(fs.readFileSync('./config/config.json', 'utf8'));
+
+const bancho = new Banchojs.BanchoClient({ username: config.usernameIrc, password: config.passwordIrc, apiKey: config.apiOsuKey });
 
 let beatmaps = [1821081];
 let currentBeatmapIndex = 0;
