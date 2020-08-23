@@ -1,5 +1,5 @@
-# bot-discord
-## Dependency
+
+## Yêu cầu
 **[NodeJS](https://nodejs.org/en/download/)**
 
 **[ffmpeg](https://www.ffmpeg.org/download.html):**    
@@ -33,11 +33,14 @@ $ sudo yum install ffmpeg ffmpeg-devel -y
 $ brew install ffmpeg
 ```
 
-## Notes: 
-  * Code rất ẩu :v 
+# First Start
+```bash
+npm i
+```
 
-## Start bot  
+## Chạy Bot 
 ```bash
 $ npm start
 ```
-  
+## Notes: 
+  * Code rất ẩu :v   
