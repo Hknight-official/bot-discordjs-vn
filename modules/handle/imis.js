@@ -19,6 +19,18 @@ module.exports = {
             reply = reply ? reply : "em hổng hiểu nghĩa cái này";
             message.channel.send(reply);
         });
+    },
+    replyPm(message, answer) {
+        request({
+            url: "https://simsumi.herokuapp.com/api?lang=vn&text="+encodeURI(answer),
+            json: false
+        }, function(error, response, body) {
+            let data = JSON.parse(body);
+            let reply = data["success"];
+            aidb(answer, reply);
+            reply = reply ? reply : "em hổng hiểu nghĩa cái này";
+            message.channel.send(reply);
+        });
     }
 }
 
