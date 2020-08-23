@@ -33,7 +33,7 @@ $ sudo yum install ffmpeg ffmpeg-devel -y
 $ brew install ffmpeg
 ```
 
-# First Start
+## First Start
 ```bash
 npm i
 ```
