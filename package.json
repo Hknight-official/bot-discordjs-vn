@@ -1,0 +1,38 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "nothing here",
+  "main": "index.js",
+  "dependencies": {
+    "bancho.js": "^0.9.7",
+    "discord.js": "^12.2.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "image-size": "^0.8.3",
+    "moment": "^2.27.0",
+    "node-osu": "^2.2.0",
+    "opusscript": "^0.0.7",
+    "promise": "^8.1.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.2",
+    "request-image-size": "^2.1.0",
+    "request-promise": "^4.2.6",
+    "soundcloud-downloader": "^0.1.2",
+    "sqlite3": "^5.0.0",
+    "ytdl-core": "^2.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hknight-official/bot-discord.git"
+  },
+  "author": "hknight, lxc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hknight-official/bot-discord/issues"
+  },
+  "homepage": "https://github.com/Hknight-official/bot-discord#readme"
+}
