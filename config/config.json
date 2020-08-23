@@ -1,8 +1,8 @@
 {
   "prefix": "COMMAND> ",
   "prefix_child": [
-    "!1.",
-	  "&"
+    "!",
+    "&"
   ],
   "token": ""
 }
