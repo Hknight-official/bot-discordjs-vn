@@ -70,6 +70,12 @@ client.on("message", async message => {
             imis.replyPm(message, chat);
             return;
     }
+    if (msg.startsWith(">")){
+        let chat = message.content.split("\n<@!"+id_bot+">")[1];
+        console.log(chat);
+        imis.replyPm(message, chat);
+        return;
+    }
     if (!msg.startsWith(prefix)) return;
     
 
