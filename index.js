@@ -9,7 +9,8 @@ var privateVC = [];
 var {
     prefix,
     prefix_child,
-    token
+    token,
+    id_bot
 } = require("./config/config.json");
 
 // [$] modules custom
@@ -64,12 +65,15 @@ client.on("message", async message => {
     let commandArgs = msg.slice(prefix.length, msg.length).split(" ");
     let commandLabel = commandArgs.shift().toLowerCase();
 
+    if (msg.startsWith("<@!"+id_bot+">")){
+            let chat = commandArgs.join(" ");
+            imis.replyPm(message, chat);
+            return;
+    }
     if (!msg.startsWith(prefix)) return;
+    
 
     switch (commandLabel.toLowerCase()) {
-        case "pm":
-            await message.author.send(".");
-            return;
         case "help":
             await message.channel.send(
                 "Cách sử dụng Bot **Loli Quốc Dân Shizuru** ! \n\n" +
