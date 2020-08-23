@@ -2,8 +2,11 @@
   "prefix": "COMMAND> ",
   "prefix_child": [
     "!",
-    "&"
+	  "&"
   ],
   "token": "",
-  "id_bot": ""
+  "id_bot": "",
+  "usernameIrc": "",
+  "passwordIrc": "",
+  "apiOsuKey": ""
 }
