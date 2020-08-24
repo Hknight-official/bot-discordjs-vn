@@ -1,4 +1,8 @@
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_bot-discordjs-vn&metric=alert_status)](https://sonarcloud.io/dashboard?id=Hknight-official_bot-discordjs-vn)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_bot-discordjs-vn&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_bot-discordjs-vn)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_bot-discordjs-vn&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_bot-discordjs-vn)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_bot-discordjs-vn&metric=security_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_bot-discordjs-vn)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_bot-discordjs-vn&metric=ncloc)](https://sonarcloud.io/dashboard?id=Hknight-official_bot-discordjs-vn)
 ## Yêu cầu
  Install **[NodeJS](https://nodejs.org/en/download/)**
 
