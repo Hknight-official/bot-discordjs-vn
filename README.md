@@ -41,18 +41,18 @@ npm i
 
 ## Config
 * Vào đường dẫn: config/config.json điền vào các mục sau: 
-```json
+```js
 {
   "prefix": "COMMAND> ", // Prefix main
   "prefix_child": [
     "!",
 	  "&"
   ], // các Prefix phụ  
-  "token": "NzE1MjE2NTQwNDEyNDExOTk1.Xs5_Tw.obVT7TbB9tf-GMYvs_2txv15k7Q", // Token bot discord có được sao khi tạo bot trên Settings > Bot > TOKEN
+  "token": "", // Token bot discord có được sao khi tạo bot trên Settings > Bot > TOKEN
   "id_bot": "715216540412411995", // id của bot lấy được bằng ở mục Settings > Generator Information > CLIENT ID
-  "usernameIrc": "hknights", // Tài Khoản Irc Osu! https://old.ppy.sh/p/irc
-  "passwordIrc": "c6fa9de0", // Mật Khẩu Irc Osu! https://old.ppy.sh/p/irc
-  "apiOsuKey": "f542df9a0b7efc666ac0350446f954740a88faa8" // apikey Osu! https://osu.ppy.sh/p/api
+  "usernameIrc": "", // Tài Khoản Irc Osu! https://old.ppy.sh/p/irc
+  "passwordIrc": "", // Mật Khẩu Irc Osu! https://old.ppy.sh/p/irc
+  "apiOsuKey": "" // apikey Osu! https://osu.ppy.sh/p/api
 }
 
 ```
