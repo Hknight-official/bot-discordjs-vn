@@ -41,7 +41,7 @@ npm i
 
 ## Config
 * Vào đường dẫn: config/config.json điền vào các mục sau: 
-```
+```json
 {
   "prefix": "COMMAND> ", // Prefix main
   "prefix_child": [
