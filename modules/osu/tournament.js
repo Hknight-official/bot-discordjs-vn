@@ -1,13 +1,14 @@
 const Banchojs = require("bancho.js");
-fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 var config = JSON.parse(fs.readFileSync('./config/config.json', 'utf8'));
+var beatmaps = [1821081];
+var currentBeatmapIndex = 0;
+var lobby;
 
-const bancho = new Banchojs.BanchoClient({ username: config.usernameIrc, password: config.passwordIrc, apiKey: config.apiOsuKey });
+var bancho = new Banchojs.BanchoClient({ username: config.usernameIrc, password: config.passwordIrc, apiKey: config.apiOsuKey });
 
-let beatmaps = [1821081];
-let currentBeatmapIndex = 0;
-let lobby;
+
 
 bancho.connect().then(async () => {
 	console.log("[Osu! System] Are Ready !");
