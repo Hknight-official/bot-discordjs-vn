@@ -1,8 +1,8 @@
 
 ## Yêu cầu
-* Install **[NodeJS](https://nodejs.org/en/download/)**
+ Install **[NodeJS](https://nodejs.org/en/download/)**
 
-* Install **[ffmpeg](https://www.ffmpeg.org/download.html):**    
+ Install **[ffmpeg](https://www.ffmpeg.org/download.html):**    
 **Đối với Windows** 
     
 Tải về [tại đây](https://ffmpeg.zeranoe.com/builds/), giải nén `ffmpeg.exe` vào thư mục `C:\Windows` hoặc bất kỳ thư mục nào khác rồi thêm vào `PATH`
